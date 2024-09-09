@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: #e5e5fd;
+  min-height: 100vh;
+  border: 10px solid #1d1e4c;
+}
+.content{
+  max-width: 900px;
+  margin: 0 auto;
+}
+.image_container{
+  border-radius: 50%;
+  overflow: hidden;
+}
+.image_container,img{
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+  /* margin-left: 30px; */
+}
+.top_section{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.top_section h1{
+  font-size: 60px;
+  font-weight: bold;
+  color: #1d1e4c;
+}
+.top_section h4{
+  text-align: end;
+  font-size: 21px;
+}
+.about_section{
+  margin-top: 50px;
+}
+.about_section h2{
+  font-size: 45px;
+  font-weight: 400px;
+  margin-bottom: 20px;
+}
+.about_section p{
+  font-size: 17px;
+line-height: 28px;
+letter-spacing: 1px;
+text-align: justify;
+
+}
+.Awards{
+  margin: 50px 0;
+  
+}
+.Awards h3{
+  margin-bottom: 15px;
+}
+.Awards ul{
+  margin-left: 50px;
+}
+.Awards li{
+  margin-bottom: 15px;
+}
+.Awards li b{
+  color: red;
+}
+.pp{
+  margin: 50px 0;
+}
+.hh{
+  text-align: end;
+}
